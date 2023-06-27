@@ -1,0 +1,12 @@
+    pergunta1
+    respostaa
+    respostab
+    respostac
+    respostad
+    a
+    pergunta2
+    respostaa
+    respostab
+    respostac
+    respostad
+    d
