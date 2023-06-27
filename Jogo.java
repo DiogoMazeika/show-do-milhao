@@ -1,25 +1,34 @@
 import java.util.ArrayList;
+import java.util.Map;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Jogo {
-    ArrayList<Pergunta> perguntas = new ArrayList<Pergunta>();
+    ArrayList<Pergunta> perguntas =  Leitor.ler();
+    boolean errou = false;
+    Map alternativas = Map.of(
+        'A', 1,
+        'B', 2,
+        'C', 3,
+        'D', 4
+);
+
     
     public Jogo() {
-        Scanner l2 = new Scanner(System.in);
-        ArrayList<String> r = new ArrayList<String>();
-        r.add("Trolha");
-        r.add("Trento");
-        Pergunta p = new Pergunta("é trento ou trolha??", r, "a");
+        while(!errou){
+            Random random = new Random();
+            int a = random.nextInt(perguntas.size());
+            Scanner l2 = new Scanner(System.in);
 
-        p.LerPergunta();
-        
-        String resposta = l2.next();
-        
-        System.out.println(resposta == p.respostaCerta);
-        if(resposta == p.respostaCerta){
-            System.out.println("Acerto miseravi");
-        }else{
-            System.out.println("Errou");
+            Pergunta p = perguntas.get(a);
+            p.LerPergunta();
+
+            int resposta = l2.nextInt();
+            if(resposta == p.respostaCerta){
+                System.out.println("Acerto miseravi");
+            }else{
+                System.out.println("Errou");
+            }
         }
     }
 }

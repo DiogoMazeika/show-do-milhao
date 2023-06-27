@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Leitor {
     public static ArrayList<Pergunta> ler() {
+
         ArrayList<Pergunta> perguntas = new ArrayList<Pergunta>();
         String caminhoArquivo = "./teste.txt";
         File arquivo = new File(caminhoArquivo);
@@ -22,12 +23,11 @@ public class Leitor {
                     texto = linha;
                 }else if(count < 6){
                     r.add(linha);
-                }else if(count == 6){
-                    certa = linha;
                 }else{
+                    count = 0;
+                    certa = linha;
                     perguntas.add(new Pergunta(texto, r, certa));
                     r.clear();
-                    count = 0;
                 }
             }
 
@@ -36,6 +36,7 @@ public class Leitor {
             // TODO: handle exception
         }
 
+        System.out.println(perguntas);
             return perguntas;
     }
 }
