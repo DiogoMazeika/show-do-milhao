@@ -1,12 +1,12 @@
-    pergunta1
-    respostaa
-    respostab
-    respostac
-    respostad
-    a
-    pergunta2
-    respostaa
-    respostab
-    respostac
-    respostad
-    d
+pergunta exemplo 1
+resposta a
+resposta b
+resposta c
+resposta d
+a
+pergunta exemplo 2
+resposta a
+resposta b
+resposta c
+resposta d
+d

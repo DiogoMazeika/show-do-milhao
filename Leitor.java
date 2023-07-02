@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Leitor {
     public static ArrayList<Pergunta> ler() {
-
-        ArrayList<Pergunta> perguntas = new ArrayList<Pergunta>();
         String caminhoArquivo = "./teste.txt";
         File arquivo = new File(caminhoArquivo);
+
+        ArrayList<Pergunta> perguntas = new ArrayList<Pergunta>();
 
         try {
             Scanner scanner = new Scanner(arquivo);
@@ -17,13 +17,13 @@ public class Leitor {
             int count = 0;
 
             while (scanner.hasNextLine()) {
-                count+=1;
+                count += 1;
                 String linha = scanner.nextLine();
-                if(count == 1){
+                if (count == 1) {
                     texto = linha;
-                }else if(count < 6){
+                } else if (count < 6) {
                     r.add(linha);
-                }else{
+                } else {
                     count = 0;
                     certa = linha;
                     perguntas.add(new Pergunta(texto, r, certa));
@@ -33,10 +33,9 @@ public class Leitor {
 
             scanner.close();
         } catch (Exception e) {
-            // TODO: handle exception
+            System.out.println(e);
         }
 
-        System.out.println(perguntas);
-            return perguntas;
+        return perguntas;
     }
 }

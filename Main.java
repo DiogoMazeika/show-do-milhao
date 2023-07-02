@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main{
+public class Main {
 
     public static void main(String args[]) {
         System.out.println("1- Jogar");
@@ -9,8 +9,11 @@ public class Main{
 
         int a = l.nextInt();
 
-        if(a == 1){
+        System.out.println();
+        if (a == 1) {
             new Jogo();
         }
+
+        l.close();
     }
 }
