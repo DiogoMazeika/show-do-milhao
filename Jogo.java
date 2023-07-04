@@ -7,11 +7,12 @@ public class Jogo {
     boolean errou = false;
     Pergunta last;
     boolean usandoAjuda = false;
+    int acertos = 0;
 
     public Jogo() {
         boolean rmv = false;
 
-        while (!errou && !perguntas.isEmpty()) {
+        while (!errou && acertos < 30) {
             Pergunta p = last;
             if (!usandoAjuda) {
                 Random random = new Random();
@@ -22,6 +23,7 @@ public class Jogo {
 
             if (resposta == p.respostaCerta) {
                 System.out.println("Correto");
+                acertos += 1;
                 usandoAjuda = false;
                 rmv = false;
             } else if (resposta == 5 && !usandoAjuda) {
@@ -50,8 +52,9 @@ public class Jogo {
         System.out.println("--------------");
         if (errou) {
             System.out.println("Perdeu tudo !!!");
+            System.out.println("Você teria ficado com " + (33333.3333 * acertos) + " barras de ouro que valem mais do que dinheiro, mas perdeu ao errar a pergunta!!!!");
         } else {
-            System.out.println("Parabéns, você ganhou!!!!");
+            System.out.println("Parabéns, você ganhou 1 milhão de doláres!!!!");
         }
 
     }

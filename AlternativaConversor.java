@@ -16,11 +16,19 @@ public class AlternativaConversor {
             4, "d");
 
     public static int toInt(String vl) {
-        return alternativasString.get(vl);
+        try{
+            return alternativasString.get(vl);
+        } catch (Exception e) {
+            return 0;
+        }
     }
 
     public static String toString(int vl) {
-        return alternativasInt.get(vl);
+        try{
+            return alternativasInt.get(vl);
+        } catch (Exception e) {
+            return "";
+        }
     }
 
 }

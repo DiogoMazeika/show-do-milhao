@@ -1,12 +1,180 @@
-pergunta exemplo 1
-resposta a
-resposta b
-resposta c
-resposta d
+Qual eh o maior planeta do sistema solar?
+Jupiter
+Marte
+Saturno
+Venus
 a
-pergunta exemplo 2
-resposta a
-resposta b
-resposta c
-resposta d
+Qual eh a capital da Australia?
+Sydney
+Melbourne
+Canberra
+Brisbane
+c
+Quem pintou a Mona Lisa?
+Pablo Picasso
+Michelangelo
+Leonardo da Vinci
+Vincent van Gogh
+c
+Qual eh o pais com a maior area territorial do mundo?
+Russia
+China
+Estados Unidos
+Canada
+a
+Qual eh o maior oceano do mundo?
+Oceano Atlantico
+Oceano Indico
+Oceano Pacifico
+Oceano Artico
+c
+Quem foi o autor da obra "Dom Casmurro"?
+Machado de Assis
+Joseh de Alencar
+Carlos Drummond de Andrade
+Graciliano Ramos
+a
+Qual eh o simbolo quimico do elemento ouro?
+Au
+Ag
+Fe
+Pt
+a
+Quem foi o primeiro homem a pisar na Lua?
+Yuri Gagarin
+Neil Armstrong
+Buzz Aldrin
+Alan Shepard
+b
+Qual eh a capital do Canada?
+Toronto
+Montreal
+Vaehcouver
+Ottawa
 d
+Quem foi o lider sul-africano vencedor do Premio Nobel da Paz em 1993?
+Nelson Mandela
+Desmond Tutu
+F. W. de Klerk
+Winnie Mandela
+c
+Qual e o maior estado brasileiro em area territorial?
+Amazonas
+Mato Grosso
+Minas Gerais
+Bahia
+a
+Quem foi o primeiro presidente do Brasil?
+Getulio Vargas
+Juscelino Kubitschek
+Deodoro da Fonseca
+Dom Pedro II
+c
+Qual e a capital da Argentina?
+Buenos Aires
+Montevideu
+Santiago
+Lima
+a
+Qual e o pais com a maior populacao do mundo?
+Estados Unidos
+India
+Brasil
+China
+d
+Quem foi o inventor do telefone?
+Thomas Edison
+Alexander Graham Bell
+Nikola Tesla
+Isaac Newton
+b
+Qual e a capital do Quenia?
+Nairobi
+Dar es Salaam
+Pretoria
+Abidjan
+a
+Quem escreveu a peca "Romeu e Julieta"?
+William Shakespeare
+Anton Chekhov
+Tennessee Williams
+Oscar Wilde
+a
+Qual e o maior deserto do mundo?
+Deserto do Saara
+Deserto de Gobi
+Deserto do Atacama
+Deserto da Arabia
+a
+Quem foi o lider cubano que governou o pais por mais de 40 anos?
+Fidel Castro
+Che Guevara
+Raul Castro
+Fulgencio Batista
+a
+Qual e o nome da famosa obra de Leonardo da Vinci que retrata uma figura humana em posicao de vitruviano?
+A Ultima Ceia
+A Mona Lisa
+A Criacao de Adao
+O Homem Vitruviano
+d
+Qual e o maior rio do mundo em volume de agua?
+Rio Nilo
+Rio Amazonas
+Rio Yangtze
+Rio Mississipi
+b
+Quem pintou a famosa obra "A Noite Estrelada"?
+Pablo Picasso
+Claude Monet
+Vincent van Gogh
+Salvador Dali
+c
+Qual e o pais conhecido como "Terra dos Cangurus"?
+Australia
+Nova Zelandia
+Canada
+Africa do Sul
+a
+Quem foi o autor do livro "1984"?
+George Orwell
+Aldous Huxley
+Ray Bradbury
+J.R.R. Tolkien
+a
+Qual e o nome da famosa estatua grega que representa a deusa da vitoria?
+Venus de Milo
+Atena Partenos
+Afrodite de Cnido
+Nike de Samotracia
+d
+Qual e o simbolo quimico do elemento nitrogenio?
+N
+Ni
+Na
+Ne
+a
+Quem foi o primeiro ser humano a orbitar a Terra?
+Yuri Gagarin
+Alan Shepard
+John Glenn
+Neil Armstrong
+a
+Qual e a capital da Espanha?
+Madrid
+Barcelona
+Sevilha
+Valencia
+a
+Quem foi o compositor da famosa sinfonia "Ode a Alegria"?
+Ludwig van Beethoven
+Wolfgang Amadeus Mozart
+Johann Sebastian Bach
+Franz Schubert
+a
+Qual e o maior animal terrestre do mundo?
+Elefante africano
+Rinoceronte branco
+Girafa
+Hipopotamo
+a
