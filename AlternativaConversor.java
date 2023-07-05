@@ -16,7 +16,7 @@ public class AlternativaConversor {
             4, "d");
 
     public static int toInt(String vl) {
-        try{
+        try {
             return alternativasString.get(vl);
         } catch (Exception e) {
             return 0;
@@ -24,11 +24,25 @@ public class AlternativaConversor {
     }
 
     public static String toString(int vl) {
-        try{
+        try {
             return alternativasInt.get(vl);
         } catch (Exception e) {
             return "";
         }
+    }
+
+    public static boolean testeToString() {
+        if (toString(1) == "a") {
+            return true;
+        }
+        return false;
+    }
+
+    public static boolean testeToInt() {
+        if (toInt("a") == 1) {
+            return true;
+        }
+        return false;
     }
 
 }

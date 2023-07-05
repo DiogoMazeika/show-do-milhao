@@ -19,7 +19,7 @@ public class Jogo {
                 int a = random.nextInt(perguntas.size());
                 p = perguntas.get(a);
             }
-            int resposta = LerPergunta(p, rmv, usandoAjuda);
+            int resposta = lerPergunta(p, rmv, usandoAjuda);
 
             if (resposta == p.respostaCerta) {
                 System.out.println("Correto");
@@ -52,14 +52,15 @@ public class Jogo {
         System.out.println("--------------");
         if (errou) {
             System.out.println("Perdeu tudo !!!");
-            System.out.println("Você teria ficado com " + (33333.3333 * acertos) + " barras de ouro que valem mais do que dinheiro, mas perdeu ao errar a pergunta!!!!");
+            System.out.println("Você teria ficado com " + (33333.3333 * acertos)
+                    + " barras de ouro que valem mais do que dinheiro, mas perdeu ao errar a pergunta!!!!");
         } else {
             System.out.println("Parabéns, você ganhou 1 milhão de doláres!!!!");
         }
 
     }
 
-    private int LerPergunta(Pergunta p, boolean rmv, boolean ajuda) {
+    private int lerPergunta(Pergunta p, boolean rmv, boolean ajuda) {
         Scanner l2 = new Scanner(System.in);
         if (!ajuda) {
             System.out.print("// 1: Pedir ajuda a universitarios");

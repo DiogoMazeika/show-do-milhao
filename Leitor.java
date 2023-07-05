@@ -38,4 +38,26 @@ public class Leitor {
 
         return perguntas;
     }
+
+    public static boolean testeLer() {
+        ArrayList<Pergunta> perguntas = ler();
+
+        // Verifica se a lista de perguntas tem o tamanho esperado
+        if (perguntas.size() != 30) {
+            return false;
+        }
+
+        // Verifica os valores das perguntas individuais
+        Pergunta pergunta1 = perguntas.get(0);
+        Pergunta pergunta2 = perguntas.get(1);
+        Pergunta pergunta3 = perguntas.get(2);
+
+        if (pergunta1.respostaCerta == 1 &&
+                pergunta2.respostaCerta == 3 &&
+                pergunta3.respostaCerta == 3) {
+            return true;
+        }
+
+        return false;
+    }
 }
